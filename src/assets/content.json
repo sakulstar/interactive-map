@@ -1,18 +1,22 @@
 {
-    "northKorea": {
-        "title": "North Korea",
-        "description": "This is the description for North Korea"
-    },
-    "southKorea": {
-        "title": "South Korea",
-        "description": "This is the description for South Korea"
-    },
-    "eastGermany": {
-        "title": "East Germany",
-        "description": "This is the description for East Germany"
-    },
-    "westGermany": {
-        "title": "West Germany",
-        "description": "This is the description for West Germany"
-    }
+    "korea": [
+        {
+            "title": "North Korea",
+            "description": "This is the description for North Korea"
+        },
+        {
+            "title": "South Korea",
+            "description": "This is the description for South Korea"
+        }
+    ],
+    "germany": [
+        {
+            "title": "East Germany",
+            "description": "This is the description for East Germany"
+        },
+        {
+            "title": "West Germany",
+            "description": "This is the description for West Germany"
+        }
+    ]
 } 

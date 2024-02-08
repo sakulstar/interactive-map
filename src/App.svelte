@@ -9,26 +9,14 @@
     let koreaSelection: any = [];
     let germanySelection: any = [];
 
-    let koreaSelectionString: string = String(koreaSelection);
+    let koreaID: number;
+    let germanyID: number;
 
-    const countries = {
-        "northKorea": {
-            "title": "North Korea",
-            "description": "This is the description for North Korea"
-        },
-        "southKorea": {
-            "title": "South Korea",
-            "description": "This is the description for South Korea"
-        },
-        "eastGermany": {
-            "title": "East Germany",
-            "description": "This is the description for East Germany"
-        },
-        "westGermany": {
-            "title": "West Germany",
-            "description": "This is the description for West Germany"
-        }
-    } 
+    $:koreaID = koreaSelection[0]
+    $:germanyID = germanySelection[0]
+
+    $:console.log("KoreaID: " + (koreaID - 1));
+    $:console.log("GermanyID: " + (germanyID - 1))
 </script>
 
 <main>
@@ -50,28 +38,28 @@
                             'vector-effect': 'non-scaling-stroke'
                         })}
                         selectMode={1}
-                        idAccessor={(feature) => feature.properties.country_name}
+                        idAccessor={(feature) => feature.properties.country_id}
                         bind:selection = {koreaSelection}
                     />
                 </BaseMap>
             </div>
             <div class="flex flex-row ml-5 text-gray-900 font-medium select-none">
-                <p class="mr-5">
-                    <input name="countryToggle" type="radio" value={true} bind:group={toggleCountry} />
-                    Show Korea
-                </p><br>
-                <p>
-                    <input name="countryToggle" type="radio" value={false} bind:group={toggleCountry} />
-                    Show Germany
-                </p>
+                <label for="koreaRadioButton" class="mr-5">
+                    <input id=koreaRadioButton name="countryToggle" type="radio" value={true} bind:group={toggleCountry} />
+                    Vis Korea
+                </label><br>
+                <label for="germanyRadioButton">
+                    <input id="germanyRadioButton" name="countryToggle" type="radio" value={false} bind:group={toggleCountry} />
+                    Vis Tyskland
+                </label>
             </div>
         </div>
         <div class="flex flex-col">
             <p class="text-orange-500 text-3xl font-semibold mt-2 mb-5">
-                {countries["northKorea"]["title"]}
+                {!koreaID ? 'Vælg et land' : content["korea"][koreaID - 1]["title"]}
             </p>
             <p class="text-gray-900 text-wrap max-w-[900px]">
-                {content["northKorea"]["description"]}
+                {!koreaID ? '' : content["korea"][koreaID - 1]["description"]}
             </p>
         </div>
     </div>
@@ -93,28 +81,29 @@
                             'stroke-width':  1,
                             'vector-effect': 'non-scaling-stroke'
                         })}
+                        idAccessor={(feature) => feature.properties.country_id}
                         selectMode={1}
                         bind:selection = {germanySelection}
                     />
                 </BaseMap>
             </div>
             <div class="flex flex-row ml-5 text-gray-900 font-medium select-none">
-                <p class="mr-5">
-                    <input name="countryToggle" type="radio" value={true} bind:group={toggleCountry} />
-                    Show Korea
-                </p><br>
-                <p>
-                    <input name="countryToggle" type="radio" value={false} bind:group={toggleCountry} />
-                    Show Germany
-                </p>
+                <label for="koreaRadioButton" class="mr-5">
+                    <input id=koreaRadioButton name="countryToggle" type="radio" value={true} bind:group={toggleCountry} />
+                    Vis Korea
+                </label><br>
+                <label for="germanyRadioButton">
+                    <input id="germanyRadioButton" name="countryToggle" type="radio" value={false} bind:group={toggleCountry} />
+                    Vis Tyskland
+                </label>
             </div>
         </div>
         <div class="flex flex-col">
             <p class="text-orange-500 text-3xl font-semibold mt-2 mb-5">
-                Title
+                {!germanyID ? 'Vælg et land' : content["germany"][germanyID - 1]["title"]}
             </p>
             <p class="text-gray-900 text-wrap max-w-[900px]">
-                Description
+                {!germanyID ? '' : content["germany"][germanyID - 1]["description"]}
             </p>
         </div>
     </div>

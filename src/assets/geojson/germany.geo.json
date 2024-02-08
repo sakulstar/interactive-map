@@ -444,7 +444,7 @@
                 "NAME": "East Germany",
                 "PARTOF": "East Germany",
                 "SUBJECTO": "East Germany",
-                "country_name": "eastGermany"
+                "country_id": 1
             },
             "type": "Feature"
         },
@@ -1444,7 +1444,7 @@
                 "NAME": "West Germany",
                 "PARTOF": "West Germany",
                 "SUBJECTO": "West Germany",
-                "country_name": "westGermany"
+                "country_id": 2
             },
             "type": "Feature"
         }
