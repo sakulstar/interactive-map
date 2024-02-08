@@ -46,18 +46,27 @@
     },
     "comparisons": [
         {
+            "title": "Comparison 1",
             "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
             "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
         },
         {
+            "title": "Comparison 2",
             "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
             "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
         },
         {
+            "title": "Comparison 3",
             "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
             "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
         },
         {
+            "title": "Comparison 4",
+            "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
+            "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
+        },
+        {
+            "title": "Comparison 5",
             "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
             "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
         }
