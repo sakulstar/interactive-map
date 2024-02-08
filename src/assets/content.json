@@ -1,22 +1,65 @@
 {
-    "korea": [
+    "countries": {      
+        "korea": [
+            {
+                "title": "Nord Korea",
+                "description": "North Korea Description",
+                "list": [
+                    "List 1",
+                    "List 2",
+                    "List 3"
+                ]
+            },
+            {
+                "title": "Syd Korea",
+                "description": "South Korea Description",
+                "list": [
+                    "List 1",
+                    "List 2",
+                    "List 3",
+                    "list 4"
+                ]
+            }
+        ],
+        "germany": [
+            {
+                "title": "Øst Tyskland",
+                "description": "East Germany Description",
+                "list": [
+                    "List 1",
+                    "List 2",
+                    "List 3"
+                ]
+            },
+            {
+                "title": "Vest Tyskland",
+                "description": "Efter 2. Verdenskrig var slut, blev Tyskland delt i to vest-og Østtyskland. Sovjetunionen fik øst og USA, Frankrig og England delt så Vesttyskland i hver deres område, men i 1949 blev de 3 lande enige om at kombinere deres områder til Vesttyskland",
+                "list": [
+                    "Vesttysklands BNP var på 1.6 trillioner i 1989.",
+                    "Deres BNP per capita ca. 25.000 euro.",
+                    "Befolkningstallet var 67.089.506 mennesker.",
+                    "Landet var et demokratisk land.",
+                    "Bundeswehr var Vesttysklands militær og havde 495.000 soldater."
+                ]
+            }
+        ]
+    },
+    "comparisons": [
         {
-            "title": "North Korea",
-            "description": "This is the description for North Korea"
+            "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
+            "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
         },
         {
-            "title": "South Korea",
-            "description": "This is the description for South Korea"
-        }
-    ],
-    "germany": [
-        {
-            "title": "East Germany",
-            "description": "This is the description for East Germany"
+            "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
+            "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
         },
         {
-            "title": "West Germany",
-            "description": "This is the description for West Germany"
+            "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
+            "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
+        },
+        {
+            "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
+            "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
         }
     ]
 } 
