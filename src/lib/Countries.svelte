@@ -58,7 +58,7 @@
             <p class="text-orange-500 text-3xl font-semibold mt-2 mb-5">
                 {!koreaID ? 'Vælg et land' : content["countries"]["korea"][koreaID - 1]["title"]}
             </p>
-            <p class="text-gray-900 text-wrap max-w-[900px]">
+            <p class="text-gray-900 text-wrap max-w-[900px] mb-2">
                 {!koreaID ? '' : content["countries"]["korea"][koreaID - 1]["description"]}
             </p>
             {#if koreaID}

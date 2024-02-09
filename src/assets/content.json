@@ -3,72 +3,64 @@
         "korea": [
             {
                 "title": "Nord Korea",
-                "description": "North Korea Description",
+                "description": "Korea blev opdelt i to nord- og Sydkorea. Sovjetunionen fik nord, mens USA fik syd. Lidt efter blev den demokratiske folkerepublik af Korea til, og Kim Il Sung blev lederen.",
                 "list": [
-                    "List 1",
-                    "List 2",
-                    "List 3"
+                    "Nordkoreas BNP er ca. 18 milliarder dollars.",
+                    "Deres BNP per capita er under 700 dollars.",
+                    "Deres befolkningstal er ca. 26 millioner.",
+                    "Landet er et militærdiktatur.",
+                    "Sociale forhold.",
+                    "Økonomisk afhængig af Kina og Sovjetunionen.",
+                    "Hungersnød efter Sovjetunionen kollapsede."
                 ]
             },
             {
                 "title": "Syd Korea",
-                "description": "South Korea Description",
+                "description": "Lidt tid efter kom der et andet land op med hjælp fra USA, som var Sydkorea.",
                 "list": [
-                    "List 1",
-                    "List 2",
-                    "List 3",
-                    "list 4"
+                    "Der er ca. 51 millioner indbyggere.",
+                    "Det er et demokratisk styreform.",
+                    "De er hjemsted for Hyundai og Samsung.",
+                    "Skolegang er obligatorisk og gratis for alle fra 6-14 år.",
+                    "Sydkoreas BNP er på ca. 1811 billioner dollars."
                 ]
             }
         ],
         "germany": [
             {
                 "title": "Øst Tyskland",
-                "description": "East Germany Description",
+                "description": "Efter 2. Verdenskrig var den østlige del af Tyskland under russisk kontrol. I 1949 blev Østtyskland dannet.",
                 "list": [
-                    "List 1",
-                    "List 2",
-                    "List 3"
+                    "Østtysklands BNP var på ca. 160 billioner euro i 1989.",
+                    "Østtysklands BNP per capita var ca. 7.500 euro i 1989.",
+                    "Befolkningstallet var 16.147.618 mennesker.",
+                    "Landets styreform var Kommunisme.",
+                    "Nationale volksarmee var Østtysklands eget militær og havde en styrke på 155.000 mennesker."
                 ]
             },
             {
                 "title": "Vest Tyskland",
-                "description": "Efter 2. Verdenskrig var slut, blev Tyskland delt i to vest-og Østtyskland. Sovjetunionen fik øst og USA, Frankrig og England delt så Vesttyskland i hver deres område, men i 1949 blev de 3 lande enige om at kombinere deres områder til Vesttyskland",
+                "description": "Efter 2. Verdenskrig var slut, blev Tyskland delt i to dele, Vest- og Østtyskland. Sovjetunionen fik øst og USA, Frankrig og England delt så Vesttyskland i hver deres område, men i 1949 blev de 3 lande enige om at kombinere deres områder til Vesttyskland.",
                 "list": [
-                    "Vesttysklands BNP var på 1.6 trillioner i 1989.",
+                    "Vesttysklands BNP var på 1.6 trillioner (som vi selv har regnet ud) i 1989.",
                     "Deres BNP per capita ca. 25.000 euro.",
                     "Befolkningstallet var 67.089.506 mennesker.",
                     "Landet var et demokratisk land.",
-                    "Bundeswehr var Vesttysklands militær og havde 495.000 soldater."
+                    "Bundeswehr var Vesttysklands militær, havde 495.000 soldater og blev etableret i 1955."
                 ]
             }
         ]
     },
     "comparisons": [
         {
-            "title": "Comparison 1",
-            "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
-            "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
+            "title": "Boliger",
+            "image1": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F57%2F1d%2F94%2F571d94fa9e6d914aa7f22200be9f959b.jpg&f=1&nofb=1&ipt=b296c44c429ef7b5a1532d602feb2011a111568233ea21778cb0a9d1fee7ea08&ipo=images",
+            "image2": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fukrainetrek.com%2Fblog%2Fwp-content%2Fuploads%2F2018%2F02%2Fghost-town-pripyat-ukraine-1.jpg&f=1&nofb=1&ipt=ad859339c0611864b77871f4794c26d039a26f38f2afb2cfd58c9714c5122f5f&ipo=images"
         },
         {
-            "title": "Comparison 2",
-            "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
-            "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
-        },
-        {
-            "title": "Comparison 3",
-            "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
-            "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
-        },
-        {
-            "title": "Comparison 4",
-            "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
-            "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
-        },
-        {
-            "title": "Comparison 5",
-            "image1": "https://dummyimage.com/1920x1080/ff00ff/fff.png",
-            "image2": "https://dummyimage.com/1920x1080/ff5e00/fff.png"
+            "title": "GDP",
+            "image1": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.intereconomics.eu%2Ffiles%2Fjournal-issues%2Fintereconomics%2F10.1007%2Fs10272-019-0854-8%2FBlum-fig.2.png&f=1&nofb=1&ipt=e612174c98cbf3d73fc7278092070abbef19e2a2bec268b1479f7d5eaadb3bf8&ipo=images",
+            "image2": ""
         }
     ]
 } 

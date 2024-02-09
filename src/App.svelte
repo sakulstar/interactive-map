@@ -2,7 +2,7 @@
     import Countries from "./lib/Countries.svelte";
     import Comparisons from "./lib/Comparisons.svelte";
 
-    let toggleTab = false;
+    let toggleTab = true;
 </script>
 
 <main class="relative">
@@ -13,7 +13,7 @@
         </label><br>
         <label for="comparisonsRadioButton" class="mx-4 mt-2 py-1 px-2 text-white font-semibold rounded-lg {!toggleTab ? 'bg-orange-500' : 'bg-orange-500/50'}">
             <input id="comparisonsRadioButton" name="tabToggle" type="radio" value={false} bind:group={toggleTab} class="hidden" />
-            Sammenligninger
+            Billeder
         </label>
     </div>
     {#if toggleTab}
